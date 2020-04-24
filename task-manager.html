@@ -84,7 +84,7 @@
               </ul>
               <br>
               <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-              <button type="button" class="align-self-end btn btn-primary btn-md mt-auto waves-effect" data-toggle="modal" data-target="#createTaskModal">Add Task</button>
+              <button type="button" class="align-self-end btn btn-primary btn-md mt-auto waves-effect add-task" data-toggle="modal" data-target="#createTaskModal">Add Task</button>
               
             </div>
 
@@ -111,7 +111,7 @@
               </ul>
               <br>
               <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-              <button type="button" class="align-self-end btn btn-primary btn-md mt-auto waves-effect" data-toggle="modal" data-target="#createTaskModal">Add Task</button>
+              <button type="button" class="align-self-end btn btn-primary btn-md mt-auto waves-effect add-task" data-toggle="modal" data-target="#createTaskModal">Add Task</button>
               
             </div>
 
@@ -140,7 +140,7 @@
               </ul>
               <br>
               <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-              <button type="button" class="align-self-end btn btn-primary btn-md mt-auto waves-effect" data-toggle="modal" data-target="#createTaskModal">Add Task</button>
+              <button type="button" class="align-self-end btn btn-primary btn-md mt-auto waves-effect add-task" data-toggle="modal" data-target="#createTaskModal">Add Task</button>
               
             </div>
 
@@ -167,7 +167,7 @@
               </ul>
               <br>
               <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-              <button type="button" class="align-self-end btn btn-primary btn-md mt-auto waves-effect" data-toggle="modal" data-target="#createTaskModal">Add Task</button>
+              <button type="button" class="align-self-end btn btn-primary btn-md mt-auto waves-effect add-task" data-toggle="modal" data-target="#createTaskModal">Add Task</button>
               
             </div>
 
@@ -194,7 +194,7 @@
               </ul>
               <br>
               <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-              <button type="button" class="align-self-end btn btn-primary btn-md mt-auto waves-effect" data-toggle="modal" data-target="#createTaskModal">Add Task</button>
+              <button type="button" class="align-self-end btn btn-primary btn-md mt-auto waves-effect add-task" data-toggle="modal" data-target="#createTaskModal">Add Task</button>
               
             </div>
 
@@ -222,7 +222,7 @@
               </ul>
               <br>
               <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-              <button type="button" class="align-self-end btn btn-primary btn-md mt-auto waves-effect" data-toggle="modal" data-target="#createTaskModal">Add Task</button>
+              <button type="button" class="align-self-end btn btn-primary btn-md mt-auto waves-effect add-task" data-toggle="modal" data-target="#createTaskModal">Add Task</button>
               
             </div>
 
@@ -248,7 +248,7 @@
               </ul>
               <br>
               <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-              <button type="button" class="align-self-end btn btn-primary btn-md mt-auto waves-effect" data-toggle="modal" data-target="#createTaskModal">Add Task</button>
+              <button type="button" class="align-self-end btn btn-primary btn-md mt-auto waves-effect add-task" data-toggle="modal" data-target="#createTaskModal">Add Task</button>
               
             </div>
 
@@ -281,19 +281,19 @@
           <form>
             <!-- Material input -->
             <div class="md-form form-group">
-              <input type="text" class="form-control" id="formGroupExampleInputMD">
-              <label for="formGroupExampleInputMD">Task Title</label>
+              <input type="text" class="form-control" id="taskTitle">
+              <label for="taskTitle">Task Title</label>
             </div>
             <!--Material textarea-->
             <div class="md-form mt-3">
-              <textarea id="form7" class="md-textarea form-control" rows="5"></textarea>
-              <label for="form7">Task Detail</label>
+              <textarea id="taskDetail" class="md-textarea form-control" rows="5"></textarea>
+              <label for="taskDetail">Task Detail</label>
             </div>
           </form>
           <!-- Material form group -->
         </div>
         <div class="modal-footer justify-content-center">
-          <button type="button" class="btn btn-primary btn-sm">Save</button>
+          <button type="button" id="saveTask" class="btn btn-primary btn-sm" data-dismiss="modal">Save</button>
         </div>
       </div>
     </div>
@@ -352,7 +352,7 @@
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
   <!-- Your custom scripts (optional) -->
-  <script type="text/javascript"></script>
+  <script type="text/javascript" src="js/custom.js"></script>
 
 </body>
 </html>
